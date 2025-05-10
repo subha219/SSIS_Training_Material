@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-LSIQM98"
   DTS:CreatorName="DESKTOP-LSIQM98\USER"
-  DTS:DTSID="{1BEA667D-757B-4146-9065-8CEA1D760207}"
+  DTS:DTSID="{C5C998AE-6234-404F-B100-B7AEC5081BB5}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="16393"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="LookUpTransformation"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{B55AB8A4-29AF-4224-8C0A-D680236903BA}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{99FE9959-517A-4D1A-B493-7899D5D17045}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAiHkQLIdqdOuu8XSopeV3teuVjyayVGDCpDJXj2+wqrgAAAAAOgAAAAAIAACAAAADy+XAv6Pl8kKU8nWIoiDRODRr2oyxyuJPPGK2gDzSqthAAAACZolK1FJRSWWYY3OXOcGBtQAAAADoaZYN3U/+pgUIpfSgfZCGBFq13uh5IU2olnBHaLiGqEuv6QzXxSxvYuQZsdkll/1lxoLd4QTj1nOse5cPYBsA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNocRGrJOp86116myeAZ9hNTjSU1AikstYrAaO+jejhwAAAAAOgAAAAAIAACAAAAAg/5xh0dtrpwGwHkpT8eHYmclms3KY9NqPY33TzgEo7RAAAAAedVrXFSY3uLictBxZdDq5QAAAAC19MpKcsqiG/alCX9WwkCOlERI8uo5ln8f8UK/4o43IrW/s85D0VVXAefV+iR4MZfBfO3F2gVqGsmJ2EV9Gljk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1100,7 +1100,7 @@ where [refTable].[ProductID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1110,7 +1110,7 @@ where [refTable].[ProductID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>

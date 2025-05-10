@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-LSIQM98"
   DTS:CreatorName="DESKTOP-LSIQM98\USER"
-  DTS:DTSID="{68D7D9CC-1C34-466D-AEDF-CE062B5FBBD8}"
+  DTS:DTSID="{5039A1DE-2287-4625-A397-BF7FCAAFFF85}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="16393"
-  DTS:ObjectName="14_MergeTransformation"
+  DTS:ObjectName="MergeTransformation"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{436E8604-4482-470C-8166-F4FE128B1C03}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{50B436AA-7C97-409C-A361-85AA6F119CDA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADQe64utlKICqjvrFcXkp1KR+7H34Tf/x3otZBa0Dbn+wAAAAAOgAAAAAIAACAAAACjHn4pel/dZTrz3koWC04u+mNeWX8op5s7ClE3ft3uzxAAAAA0ayQIlGVBTGyGsKB+BLkoQAAAAI/6NH/oRKMrck2YCCdgLx0XJ53RqnmpluTspNVLSQagPfYA6KwUHvRVap8w3eh7FbmW03yf6mQjsEJLuUHxhrI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABBE5AuCyMbmgUTI8dc1K1qjlNcGXnWqWK84XdRTksW7QAAAAAOgAAAAAIAACAAAAAEVYG5YLYsZKYYOvfcdgQrdJn2fGJ5KniXx+FKmusCSRAAAABce6KFjhMdNebaWJsjsESSQAAAAOdBtcYiqYOpuNibbphH6pdaISrpCjCuW42v1sq/3RfGXJDM9rGXVPeLn77II1/1iGNZDrX0Ya1z94oUBXtpKMc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>

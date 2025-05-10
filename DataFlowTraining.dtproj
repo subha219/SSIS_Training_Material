@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LSIQM98</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAB9tcs1Uv0J0pRNXHB7HL36se0RKhWoEmTYVFUd5lj0YwAAAAAOgAAAAAIAACAAAAA6cUtClkazSb1J+oiX/IsWOVfWymU9JLsTaVmkDU6YNJAAAACK99fzxNs0FZ0QPVPZ7x2piSOPrWErVYR2N6F5M9TktA7WaNNnlBNAqQKz3wTcA0Ok+OHhlhZRtcORXYoQT/rL2OrrmuXYJnYRZY0It4rCjDEJZN2x2lSn0+tQDZLVCeTc93ejOlmYJunEWsvpjTLlt6owCnVDJF0tbjSk9nS2e02L4TF4+CymATETuA4lfx5AAAAAtlx0VC/HFF0ViD4+piRBHxep+EYOPORMmScgO5Hrnrubef/49uKWEdELtNpIrFn7aONQHIAGcov5vhHKVUCILQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAADzN6iT1GBdQcHYFMdBuRTkfE1d8RmMxBnlE9bT0TK3jgAAAAAOgAAAAAIAACAAAAD4cE41VuJ6QSqKXVUzJkv8nhTV3hY1GLX4n0oAXvpjLpAAAABICQ2p1bl3tttgMMUUfTvV7sfngAZxXXt32uAAYjv3qzIIB5gMmRnl9BdvDL7CavCJ9PCdBmBh+g8XgrB+naecqOmIWAuaZ2rTZ1alkV7rsaMBnIf/BUShcCUMqICsMR3X4XLpYD4TXWKQo34oi/vkIDxAKF0iUbmIEsGFTzfp5c7n85q8MpyMOTeQmfQUHRpAAAAARi5cGLEVOdFoczSe8B4XK0GIHlyyVi91AxmCPhqyv4RJSig4XWpNN1cCCDzMZg/RCjcOlcz/oWWa0GNBVmQv8A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -45,9 +45,9 @@
           <SSIS:Package SSIS:Name="12_Audit_Transformation.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="13_ExortColumnDemo.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="14_ImportColumnDemo.dtsx" SSIS:EntryPoint="1" />
-          <SSIS:Package SSIS:Name="14_MergeTransformation.dtsx" SSIS:EntryPoint="1" />
-          <SSIS:Package SSIS:Name="14_MergeJoinTransformation.dtsx" SSIS:EntryPoint="1" />
-          <SSIS:Package SSIS:Name="14_LookUpTransformation.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="MergeTransformation.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="MergeJoinTransformation.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="LookUpTransformation.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -6979,16 +6979,16 @@
                 </SSIS:Parameter>
               </SSIS:Parameters>
             </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="14_MergeTransformation.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="MergeTransformation.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{68D7D9CC-1C34-466D-AEDF-CE062B5FBBD8}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">14_MergeTransformation</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{5039A1DE-2287-4625-A397-BF7FCAAFFF85}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">MergeTransformation</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{436E8604-4482-470C-8166-F4FE128B1C03}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{50B436AA-7C97-409C-A361-85AA6F119CDA}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -7306,6 +7306,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -7341,16 +7343,16 @@
                 </SSIS:Parameter>
               </SSIS:Parameters>
             </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="14_MergeJoinTransformation.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="MergeJoinTransformation.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{EDE25421-8A9E-41C9-BA15-0D460CED7715}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{A59F6AB5-2F31-4D0F-9644-79EB4549F8BE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">MergeJoinTransformation</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E5BB651F-D497-4CBA-BE9A-714767F73A21}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2AE0D201-0A50-4F53-9C22-1BC14315EBB6}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -7668,6 +7670,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -7703,16 +7707,16 @@
                 </SSIS:Parameter>
               </SSIS:Parameters>
             </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="14_LookUpTransformation.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="LookUpTransformation.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{1BEA667D-757B-4146-9065-8CEA1D760207}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{C5C998AE-6234-404F-B100-B7AEC5081BB5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">LookUpTransformation</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{B55AB8A4-29AF-4224-8C0A-D680236903BA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{99FE9959-517A-4D1A-B493-7899D5D17045}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -8030,6 +8034,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -8225,6 +8231,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

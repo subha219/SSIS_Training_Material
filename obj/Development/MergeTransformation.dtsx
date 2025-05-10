@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/9/2025 7:42:36 PM"
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA+lAGAbh5uCvycpXF04Y5yi4HpFQ3LWBSbk6qJeXmuMgAAAAAOgAAAAAIAACAAAAAc1n/We/uaxKUpdgfu2QpqTw0b4P80SAFRxKw38yFUZRAAAAAZU0VzAXIItSqs+CvxRvDRQAAAAN9BQkkiRLADBDseB+uIICmQfUwVjixrNxW+TycJRvIgTQNrCCO/hPQClde1ExhAS393hZLln1dlgN99Is9S9uw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACZuvN8AnKOaC2+ZFJ0W0h2B0bASZ9RfW7MfJ7U1DsNxwAAAAAOgAAAAAIAACAAAACkb6m/CYfkjR9y4nIR8pF6vRAgrUYs9Hq2zyB85SxRIhAAAAB/jx8I74i91cwcbu0Ma4chQAAAAM4n+BAgk1HihaAall9sSfO222t3yM7XuZiQbqZr4suHnrlnTiWlNEu36xBTXTdT+8aaKA6naKJ5K4mlXFkRBJE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>

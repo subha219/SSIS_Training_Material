@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF8BB026-4E99-3A68-51C7-E8664590E703}|DataFlowTraining.dtproj|E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\14_MergeTransformation.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{CF8BB026-4E99-3A68-51C7-E8664590E703}|DataFlowTraining.dtproj|solutionrelative:14_MergeTransformation.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{CF8BB026-4E99-3A68-51C7-E8664590E703}|DataFlowTraining.dtproj|E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\CacheTransform.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{CF8BB026-4E99-3A68-51C7-E8664590E703}|DataFlowTraining.dtproj|solutionrelative:CacheTransform.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,13 +35,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "14_MergeTransformation.dtsx [Design]",
-              "DocumentMoniker": "E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\14_MergeTransformation.dtsx",
-              "RelativeDocumentMoniker": "14_MergeTransformation.dtsx",
-              "ToolTip": "E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\14_MergeTransformation.dtsx [Design]",
-              "RelativeToolTip": "14_MergeTransformation.dtsx [Design]",
+              "Title": "CacheTransform.dtsx [Design]",
+              "DocumentMoniker": "E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\CacheTransform.dtsx",
+              "RelativeDocumentMoniker": "CacheTransform.dtsx",
+              "ToolTip": "E:\\StudyMaterial\\SSIS\\package\\DataFlowTraining\\CacheTransform.dtsx [Design]",
+              "RelativeToolTip": "CacheTransform.dtsx [Design]",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
-              "WhenOpened": "2025-05-09T17:14:06.497Z",
+              "WhenOpened": "2025-05-10T07:44:23.981Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>DataFlowTraining</Name>
-    <LastWriteTime>2025-05-10T17:38:16.7093901Z</LastWriteTime>
+    <LastWriteTime>2025-05-11T08:07:56.1287599Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -114,6 +114,11 @@
     <ProjectBuildItemInfo>
       <Name>RowCountTransformation.dtsx</Name>
       <LastWriteTime>2025-05-11T07:53:25.8755085Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>OLEDBCommandTransformation.dtsx</Name>
+      <LastWriteTime>2025-05-11T08:07:25.2453783Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>DataFlowTraining</Name>
-    <LastWriteTime>2025-05-10T14:18:27.2097327Z</LastWriteTime>
+    <LastWriteTime>2025-05-10T17:38:16.7093901Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -108,7 +108,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>FuzzyGrouping.dtsx</Name>
-      <LastWriteTime>2025-05-10T14:20:12.3200093Z</LastWriteTime>
+      <LastWriteTime>2025-05-10T14:22:02.3831435Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>RowCountTransformation.dtsx</Name>
+      <LastWriteTime>2025-05-11T07:53:25.8755085Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

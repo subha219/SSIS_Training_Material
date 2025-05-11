@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="FuzzyGrouping"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{DF175EB1-4ACE-434F-8843-17BA4A412C2E}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{10D0FEDD-411E-4577-97AC-953D8AA625F6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNvt2BWTQW4EzxZ28htnToJAyh9j3WEZ6w0K3v7rEjbQAAAAAOgAAAAAIAACAAAADvEDvgKRRAes1ufHhhxFJo69i3FYVyIvTETiGsfB6bExAAAAAOjETS/Cg/MNRUZQkiYuCZQAAAACX/etQwjPzLp7yYuslNKzIDOpBsLJaOl315SiAGsLDhrzMk6gZBdRMIY7aCrt5T9KIr2zG7dP14oCK1A6KbHfc</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADXJysj2yC9IVyBm38bIF2bupqkzYvUY8klW0opIr0iKgAAAAAOgAAAAAIAACAAAADIf/2QMFQnb6ORnLJgTzv1R5hn+lGbVQ/mL3SNCqKa/BAAAAAz2JG0ycjkjYbkfI9uavzoQAAAAD4GGvmLV9P5zmy2S3QCobUuMUmOAOHLV/mnvs1FDjNB2gy5rUj3Ig5uga1sR8P76mZGKu3bFn2T509eYb4zjz8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -351,7 +351,7 @@
                 <property
                   dataType="System.Single"
                   description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                  name="MinSimilarity">0.72</property>
+                  name="MinSimilarity">0.51</property>
                 <property
                   dataType="System.String"
                   description="Specifies the white-space and punctuation characters used to separate strings into multiple words."

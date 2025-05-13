@@ -1,42 +1,42 @@
 <?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="5/12/2025 8:59:15 PM"
+  DTS:CreationDate="5/12/2025 9:18:25 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-LSIQM98"
   DTS:CreatorName="DESKTOP-LSIQM98\USER"
-  DTS:DTSID="{AD93CE7F-B787-43A1-8B95-7B4CAD61643D}"
+  DTS:DTSID="{E7B62D86-C48A-4CB3-B694-5C7A4D248D04}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="16393"
-  DTS:ObjectName="TermExtractTransformation"
+  DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{448406ED-47E1-48E8-9F3B-06022BB685E9}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{6D555817-84B4-4AB7-939B-2471D45CBFFC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-LSIQM98\SA.AdventureWorks2017.sa]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{DBA4BC80-FC49-414C-A99D-36A9A8BB9965}"
+      DTS:DTSID="{42B328B3-6A54-41AE-8144-278D1AC14FF3}"
       DTS:ObjectName="DESKTOP-LSIQM98\SA.AdventureWorks2017.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-LSIQM98\SA;User ID=sa;Initial Catalog=AdventureWorks2017;Provider=SQLNCLI11.1;Application Name=SSIS-TermExtractTransformation-{DBA4BC80-FC49-414C-A99D-36A9A8BB9965}DESKTOP-LSIQM98\SA.AdventureWorks2017.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=DESKTOP-LSIQM98\SA;User ID=sa;Initial Catalog=AdventureWorks2017;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{42B328B3-6A54-41AE-8144-278D1AC14FF3}DESKTOP-LSIQM98\SA.AdventureWorks2017.sa;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/HTEkbKXJV+Z22I60MNuVLRaGrRzRUAoV8/jXawm0lAAAAAAOgAAAAAIAACAAAAAxk97OciBW4d04hlllKV5el+OmSnO08504DpFYO/0KuBAAAAB9J8eaj4IxPvnWIq67Wt9GQAAAAEXo/ZtRLhfA2bjmrf1oHtiIoje02E8A+WKZ+AcSdyn6aselCaX7WzRX8Y3A4ZBOi7H7oCvvmUNGijCsxVx8Xes</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB1NQjsxtDSjfE2gKgHqreJJWNWWg0k1wYMggVXW+Kr7AAAAAAOgAAAAAIAACAAAAD08JC9rhPFPFjJszcXkESLywwKnKVwY9hRmGdhsFIihRAAAADErdHD5G9s6ol2oPBkssAbQAAAANsMUK4bhxVAdhC03YIwdxkvXaAaKk7fjjQZhEQ3UdX1D5eFoM69Jezm2kn2tElavnxt3jwxMbjqPO7s5ddQpa4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{42F86E00-1278-43DA-B883-38AB76452DEC}"
+      DTS:DTSID="{AA41C922-C3C3-460D-84FE-E5A8C5E7FF8D}"
       DTS:ObjectName="Flat File Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -55,7 +55,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Description"
-              DTS:DTSID="{529C0E08-4FE8-48AA-8E23-04B7C24C7153}"
+              DTS:DTSID="{5601F5CC-79B5-4CD8-BFCD-69DCE31079A4}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -65,13 +65,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\TermExtractTransformation"
+      DTS:refId="Package\TermLookupTransformation"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{3F1AD329-E08A-4CD8-BC3A-59FB46CE6D47}"
+      DTS:DTSID="{93E0475C-E882-46C5-81CD-162B59047BDC}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="TermExtractTransformation"
+      DTS:ObjectName="TermLookupTransformation"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -79,7 +79,7 @@
           version="1">
           <components>
             <component
-              refId="Package\TermExtractTransformation\Flat File Source"
+              refId="Package\TermLookupTransformation\Flat File Source"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
@@ -99,24 +99,24 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\TermExtractTransformation\Flat File Source.Connections[FlatFileConnection]"
+                  refId="Package\TermLookupTransformation\Flat File Source.Connections[FlatFileConnection]"
                   connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
                   connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output]"
+                  refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output]"
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]"
+                      refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Description]"
+                      externalMetadataColumnId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Description]"
                       length="150"
-                      lineageId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]"
+                      lineageId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]"
                       name="Description"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -134,34 +134,34 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Description]"
+                      refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Description]"
                       dataType="wstr"
                       length="150"
                       name="Description" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output]"
+                  refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output]"
                   isErrorOut="true"
                   name="Flat File Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       codePage="1252"
                       dataType="text"
                       description="Flat File Source Error Output Column"
-                      lineageId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      lineageId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
                       name="Flat File Source Error Output Column" />
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -170,7 +170,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\TermExtractTransformation\OLE DB Destination"
+              refId="Package\TermLookupTransformation\OLE DB Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -185,7 +185,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[TermExtractionDemo]</property>
+                  name="OpenRowset">[dbo].[TermLookUpDemo]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -207,7 +207,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">3</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -219,7 +219,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions"></property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -227,7 +227,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\TermExtractTransformation\OLE DB Destination.Connections[OleDbConnection]"
+                  refId="Package\TermLookupTransformation\OLE DB Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-LSIQM98\SA.AdventureWorks2017.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-LSIQM98\SA.AdventureWorks2017.sa]"
                   description="The OLE DB runtime connection used to access the database."
@@ -235,58 +235,70 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Term]"
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Term]"
                       cachedDataType="wstr"
                       cachedLength="128"
                       cachedName="Term"
-                      externalMetadataColumnId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Term]"
-                      lineageId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output].Columns[Term]" />
+                      externalMetadataColumnId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Term]"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Term]" />
                     <inputColumn
-                      refId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Score]"
-                      cachedDataType="r8"
-                      cachedName="Score"
-                      externalMetadataColumnId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Score]"
-                      lineageId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output].Columns[Score]" />
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Frequency]"
+                      cachedDataType="i4"
+                      cachedName="Frequency"
+                      externalMetadataColumnId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Frequency]"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Frequency]" />
+                    <inputColumn
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Description]"
+                      cachedDataType="wstr"
+                      cachedLength="150"
+                      cachedName="Description"
+                      externalMetadataColumnId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sentence]"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Description]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Term]"
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Term]"
                       dataType="wstr"
                       length="150"
                       name="Term" />
                     <externalMetadataColumn
-                      refId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Score]"
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Frequency]"
                       dataType="i4"
-                      name="Score" />
+                      name="Frequency" />
+                    <externalMetadataColumn
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sentence]"
+                      dataType="wstr"
+                      length="150"
+                      name="Sentence" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\TermExtractTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\TermLookupTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\TermExtractTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\TermExtractTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TermLookupTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\TermExtractTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\TermLookupTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\TermExtractTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TermLookupTransformation\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -295,106 +307,113 @@
               </outputs>
             </component>
             <component
-              refId="Package\TermExtractTransformation\Term Extraction"
-              componentClassID="Microsoft.TermExtraction"
-              description="Extracts frequently used English-only terms from an input data flow. Terms and their corresponding score are written to output data columns. For example, search a group of documents to discover commonly-used terms. Note: an English dictionary is included with Integration Services."
-              name="Term Extraction"
+              refId="Package\TermLookupTransformation\Term Lookup"
+              componentClassID="Microsoft.TermLookup"
+              description="Determines how frequently specific terms occur in a data flow. Matching terms and their frequency of occurrence are written to output data columns. For example, see if a document contains terms that are common in a particular document category. Note: you must supply a table of reference terms."
+              name="Term Lookup"
               usesDispositions="true"
               version="3">
               <properties>
                 <property
-                  dataType="System.Boolean"
-                  description="Indicates whether to use exclusion terms."
-                  name="NeedReferenceData">false</property>
+                  dataType="System.String"
+                  description="Specifies the reference table that contains the reference terms."
+                  name="RefTermTable">[dbo].[TermExtractionDemo]</property>
                 <property
                   dataType="System.String"
-                  description="Specifies the reference table containing the exclusion terms."
-                  name="OutTermTable"></property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the column containing the exclusion terms. The column must be in the table specified in the property OutTermTable."
-                  name="OutTermColumn"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of terms to extract. 0 specifies noun, 1 specifies noun phrase, and 2 specifies noun and noun phrase."
-                  name="WordOrPhrase"
-                  typeConverter="WordOrPhrase">2</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies what kind of score to be associated with a term. 0 means using the frequency of a term as the score; 1 means using the TFIDF of a term as the score."
-                  name="ScoreType"
-                  typeConverter="ScoreType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the frequency threshold above which a term is extracted."
-                  name="FrequencyThreshold">2</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the maximum number of words in a term."
-                  name="MaxLengthOfTerm">12</property>
+                  description="Specifies the column that contains the reference terms. The column must be in the table specified in the property RefTermTable."
+                  name="RefTermColumn">Term</property>
                 <property
                   dataType="System.Boolean"
-                  description="Specifies whether the Term Extraction process is case sensitive."
+                  description="Indicates whether the lookup operation is case-sensitive."
                   name="IsCaseSensitive">false</property>
               </properties>
+              <connections>
+                <connection
+                  refId="Package\TermLookupTransformation\Term Lookup.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-LSIQM98\SA.AdventureWorks2017.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-LSIQM98\SA.AdventureWorks2017.sa]"
+                  description="Reference Data Connection."
+                  name="OleDbConnection" />
+              </connections>
               <inputs>
                 <input
-                  refId="Package\TermExtractTransformation\Term Extraction.Inputs[Term Extraction Input]"
-                  description="Input to Term Extraction Transformation"
-                  name="Term Extraction Input">
+                  refId="Package\TermLookupTransformation\Term Lookup.Inputs[Term Lookup Input]"
+                  description="Input to Term Lookup Transformation"
+                  name="Term Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\TermExtractTransformation\Term Extraction.Inputs[Term Extraction Input].Columns[Description]"
+                      refId="Package\TermLookupTransformation\Term Lookup.Inputs[Term Lookup Input].Columns[Description]"
                       cachedDataType="wstr"
                       cachedLength="150"
                       cachedName="Description"
-                      lineageId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]" />
+                      lineageId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies whether the column is a pass-thru column and whether it is a lookup column. 0 indicates a pass-thru column, 1 indicates a lookup column, and 2 indicates the column is both a pass-thru and a lookup column."
+                          name="InputColumnType">2</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output]"
-                  description="Output from Term Extraction Transformation"
-                  errorOrTruncationOperation="Term Extraction"
+                  refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output]"
+                  description="Output from Term Lookup Transform"
+                  errorOrTruncationOperation="Term Lookup"
                   errorRowDisposition="RedirectRow"
-                  name="Term Extraction Output">
+                  name="Term Lookup Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output].Columns[Term]"
+                      refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Term]"
                       dataType="wstr"
-                      description="Output Column from Term Extraction Transform"
+                      description="Term from the reference data."
                       length="128"
-                      lineageId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output].Columns[Term]"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Term]"
                       name="Term" />
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output].Columns[Score]"
-                      dataType="r8"
-                      description="Score"
-                      lineageId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output].Columns[Score]"
-                      name="Score" />
+                      refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Frequency]"
+                      dataType="i4"
+                      description="The frequency of the term appearing in every text string."
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Frequency]"
+                      name="Frequency" />
+                    <outputColumn
+                      refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Description]"
+                      dataType="wstr"
+                      length="150"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output].Columns[Description]"
+                      name="Description">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage ID of the upstream column that is referenced by this column."
+                          name="CustomLineageID">#{Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output].Columns[Description]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Error Output]"
-                  description="Error Output from Term Extraction Transform"
+                  refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Error Output]"
+                  description="Error Output from Term Lookup Transform"
                   exclusionGroup="1"
                   isErrorOut="true"
-                  name="Term Extraction Error Output"
-                  synchronousInputId="Package\TermExtractTransformation\Term Extraction.Inputs[Term Extraction Input]">
+                  name="Term Lookup Error Output"
+                  synchronousInputId="Package\TermLookupTransformation\Term Lookup.Inputs[Term Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Error Output].Columns[ErrorCode]"
+                      refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Error Output].Columns[ErrorColumn]"
+                      refId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -405,15 +424,15 @@
           </components>
           <paths>
             <path
-              refId="Package\TermExtractTransformation.Paths[Flat File Source Output]"
-              endId="Package\TermExtractTransformation\Term Extraction.Inputs[Term Extraction Input]"
+              refId="Package\TermLookupTransformation.Paths[Flat File Source Output]"
+              endId="Package\TermLookupTransformation\Term Lookup.Inputs[Term Lookup Input]"
               name="Flat File Source Output"
-              startId="Package\TermExtractTransformation\Flat File Source.Outputs[Flat File Source Output]" />
+              startId="Package\TermLookupTransformation\Flat File Source.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\TermExtractTransformation.Paths[Term Extraction Output]"
-              endId="Package\TermExtractTransformation\OLE DB Destination.Inputs[OLE DB Destination Input]"
-              name="Term Extraction Output"
-              startId="Package\TermExtractTransformation\Term Extraction.Outputs[Term Extraction Output]" />
+              refId="Package\TermLookupTransformation.Paths[Term Lookup Output]"
+              endId="Package\TermLookupTransformation\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Term Lookup Output"
+              startId="Package\TermLookupTransformation\Term Lookup.Outputs[Term Lookup Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -432,55 +451,43 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="213,42"
-          Id="Package\TermExtractTransformation"
-          TopLeft="302,89" />
+          Size="215,42"
+          Id="Package\TermLookupTransformation"
+          TopLeft="233,74" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\TermExtractTransformation">
+    design-time-name="Package\TermLookupTransformation">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="156,42"
-          Id="Package\TermExtractTransformation\Flat File Source"
-          TopLeft="451,144" />
+          Id="Package\TermLookupTransformation\Flat File Source"
+          TopLeft="481,106" />
         <NodeLayout
           Size="177,42"
-          Id="Package\TermExtractTransformation\OLE DB Destination"
-          TopLeft="456,363" />
+          Id="Package\TermLookupTransformation\OLE DB Destination"
+          TopLeft="485,356" />
         <NodeLayout
-          Size="157,42"
-          Id="Package\TermExtractTransformation\Term Extraction"
-          TopLeft="455,253" />
+          Size="144,42"
+          Id="Package\TermLookupTransformation\Term Lookup"
+          TopLeft="489,227" />
         <EdgeLayout
-          Id="Package\TermExtractTransformation.Paths[Term Extraction Output]"
-          TopLeft="533.5,295">
+          Id="Package\TermLookupTransformation.Paths[Flat File Source Output]"
+          TopLeft="560,148">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11,68"
+              EndConnector="0,79"
               Start="0,0"
-              End="11,60.5">
+              End="0,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30"
-                    Point2="0,34"
-                    Point3="4,34" />
-                  <mssgle:LineSegment
-                    End="7,34" />
-                  <mssgle:CubicBezierSegment
-                    Point1="7,34"
-                    Point2="11,34"
-                    Point3="11,38" />
-                  <mssgle:LineSegment
-                    End="11,60.5" />
+                    End="0,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -490,19 +497,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\TermExtractTransformation.Paths[Flat File Source Output]"
-          TopLeft="531.25,186">
+          Id="Package\TermLookupTransformation.Paths[Term Lookup Output]"
+          TopLeft="561,269">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,67"
+              EndConnector="12.5,87"
               Start="0,0"
-              End="0,59.5">
+              End="12.5,79.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,59.5" />
+                    End="0,39.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39.5"
+                    Point2="0,43.5"
+                    Point3="4,43.5" />
+                  <mssgle:LineSegment
+                    End="8.5,43.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8.5,43.5"
+                    Point2="12.5,43.5"
+                    Point3="12.5,47.5" />
+                  <mssgle:LineSegment
+                    End="12.5,79.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -515,7 +534,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\TermExtractTransformation\OLE DB Destination">
+    design-time-name="Package\TermLookupTransformation\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -524,6 +543,14 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\TermLookupTransformation\Term Lookup">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

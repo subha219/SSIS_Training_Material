@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>DataFlowTraining</Name>
-    <LastWriteTime>2025-05-12T15:46:12.1194746Z</LastWriteTime>
+    <LastWriteTime>2025-05-12T16:38:52.578537Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -128,7 +128,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>TermExtractTransformation.dtsx</Name>
-      <LastWriteTime>2025-05-12T15:46:11.1165546Z</LastWriteTime>
+      <LastWriteTime>2025-05-12T15:46:34.3410866Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>TermLookupTransformation.dtsx</Name>
+      <LastWriteTime>2025-05-12T16:38:52.5472872Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
